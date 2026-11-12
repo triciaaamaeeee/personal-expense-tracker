@@ -1,0 +1,12 @@
+# Keep local settings and secrets out of the public repository.
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vscode/
+node_modules/
+*.log
+Thumbs.db
+.DS_Store
